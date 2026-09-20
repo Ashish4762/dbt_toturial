@@ -1,0 +1,20 @@
+[project]
+name = "dbt-toturial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ashish Sarule", email = "saruleashish2003@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dbt-core>=1.12.5",
+    "dbt-snowflake>=1.12.1",
+]
+
+[project.scripts]
+dbt-toturial = "dbt_toturial:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
