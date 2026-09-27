@@ -1,0 +1,13 @@
+ashish_dbt_project_1:
+  outputs:
+    dev:
+      account: KZIPKYB-HE93005
+      database: DBT_TUTORIAL_DEV
+      password: Snowflake@4762
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: ASHISHSARULE
+      warehouse: COMPUTE_WH
+  target: dev
